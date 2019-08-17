@@ -19,6 +19,6 @@ class NewsAdmin(admin.ModelAdmin):
 admin.site.register(News,NewsAdmin)
 
 class CommentAdmin(admin.ModelAdmin):
-    pass
+    pass 
 
 admin.site.register(Comment,CommentAdmin)
